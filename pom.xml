@@ -28,6 +28,12 @@
       <artifactId>snmp4j-agent</artifactId>
       <version>2.1.0</version>
       <scope>compile</scope>
+      <exclusions>
+	<exclusion>
+	  <groupId>org.snmp4j</groupId>
+	  <artifactId>snmp4j</artifactId>
+	</exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
   <build>
